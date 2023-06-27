@@ -11,7 +11,7 @@ body{
 p{
     color: #495057;
     font-family: 'Poppins', sans-serif;
-    font-size: 2.2vh;
+    font-size: 1rem;
 }
 
 .container{
@@ -96,11 +96,11 @@ ul{
     font-family: 'Poppins', sans-serif;
     color: #0f4c5c;
     margin: 0%;
-    font-size: 6.5vh;
+    font-size: 3rem;
 }
 
 .hero p{
-    font-size: 4vh;
+    font-size: 2rem;
     color: #0f4c5c;
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
@@ -112,7 +112,7 @@ ul{
   font-family: 'Poppins', sans-serif;
   font-weight: bolder;
   margin: 0%;
-  font-size: 4vh;
+  font-size: 2rem;
 }
 
 .section-title hr {
