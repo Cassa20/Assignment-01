@@ -1,0 +1,188 @@
+html{
+    scroll-behavior: smooth;
+  }
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #f6f5f5;
+}
+
+p{
+    color: #495057;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2vh;
+}
+
+.container{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    position: fixed;
+    color: #f6f5f5;
+    height: 100%;
+    width: 25%;
+    background-color: azure;
+    margin-top: 4%;
+}
+
+.main-body{
+    margin: 2% 4% 0 28%;
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 14px;
+    margin: 3% 0;
+    border-radius: 1rem;
+}
+
+.sidebar-content{
+    background-color: #0f4c5c;
+    padding: 20% 25%;
+    margin-left: 8%;
+    border-radius: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-content a{
+    text-decoration: none;
+    color:#f6f5f5;
+}
+
+.sidebar-content li{
+    list-style: none;
+    margin-bottom: 15%;
+}
+
+
+.fas{
+    margin-right: 10%;
+}
+
+.sidebar-content img{
+    width: 100%;
+    margin-bottom: 40%;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+
+.hero{
+    background-color: #83c5be;
+    padding: 11%;
+    text-align: center;
+}
+
+.hero img{
+    width: 25%;
+    height: 30%;
+    border-radius: 48%;
+    margin: 7% auto 1.5% auto;
+    border: 8px solid #bee3db;
+}
+
+.hero h1{
+    font-family: 'Poppins', sans-serif;
+    color: #0f4c5c;
+    margin: 0%;
+    font-size: 6.5vh;
+}
+
+.hero p{
+    font-size: 4vh;
+    color: #0f4c5c;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+}
+
+.section-title h2 {
+    text-align: left;
+  color: #0f4c5c;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  margin: 0%;
+  font-size: 4vh;
+}
+
+.section-title hr {
+  width: 7%;
+  margin-left: 0;
+  border-top: 8px solid;
+  border-radius: 8px;
+  color: #dc2f02;
+}
+
+.technologies-content {
+    display: flex;
+    text-align: left;
+    margin-top: 2%;
+  }
+  
+  .technologies-item {
+    -ms-flex: 0 0 15%;
+    flex: 0 0 15%;
+    max-width: 15%;
+    border-radius: 15px;
+  }
+  
+  .technologies-item img {
+    width: 50%;
+    color: white;
+  }
+
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3% 3% 0 3%;
+    background-color: #f0f0f0;
+}
+  
+  .contact-item {
+    max-width: 33%;
+  }
+  
+  .contact-item h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #0f4c5c;
+  }
+  
+  .contact-item p {
+    color: #495057;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .contact-item i {
+    color: #ff3636;
+  }
+
+  .about button {
+    border-radius: 1rem;
+    padding: 2%;
+    color: white;
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    border: none;
+  }
+  
+  .download {
+    background-color: #dc2f02;
+  }
+  
+  .hire {
+    background-color: #0f4c5c;
+    margin-left: 2%;
+  }
